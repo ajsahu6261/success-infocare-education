@@ -64,7 +64,7 @@ const About = () => {
           </p>
 
           <a
-            href="/courses"
+            href="/#courses"
             className="mt-8 inline-flex items-center gap-2 rounded-lg bg-blue-500 px-6 py-3 font-semibold text-white transition hover:bg-blue-600"
           >
             Explore Our Courses <ArrowRight size={20} />
@@ -132,48 +132,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Mission and Vision */}
-      <section className="bg-slate-50 px-6 py-16 md:py-20">
-        <div className="mx-auto max-w-7xl">
-          <div className="mb-12 text-center">
-            <p className="font-bold uppercase tracking-widest text-blue-600">
-              Our Purpose
-            </p>
-            <h2 className="mt-3 text-3xl font-extrabold text-[#0D1C42] md:text-4xl">
-              Mission & Vision
-            </h2>
-          </div>
-
-          <div className="grid gap-8 md:grid-cols-2">
-            <article className="rounded-2xl border border-slate-100 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
-              <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-xl bg-blue-100 text-blue-600">
-                <Target size={30} />
-              </div>
-              <h3 className="text-2xl font-bold text-[#0D1C42]">
-                Our Mission
-              </h3>
-              <p className="mt-4 leading-8 text-slate-600">
-                To provide accessible computer education and practical
-                learning opportunities that help students build confidence
-                and strengthen their digital skills.
-              </p>
-            </article>
-
-            <article className="rounded-2xl border border-slate-100 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
-              <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-xl bg-indigo-100 text-indigo-600">
-                <Award size={30} />
-              </div>
-              <h3 className="text-2xl font-bold text-[#0D1C42]">
-                Our Vision
-              </h3>
-              <p className="mt-4 leading-8 text-slate-600">
-                To encourage lifelong learning and help more people become
-                confident, capable, and digitally skilled members of society.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
 
       {/* Why Choose Us */}
       <section className="mx-auto max-w-7xl px-6 py-16 md:px-10 md:py-24">
@@ -229,7 +187,7 @@ const About = () => {
           </p>
 
           <a
-            href="/contactUs"
+            href="/#Enquiry"
             className="mt-8 inline-flex items-center gap-2 rounded-lg bg-blue-500 px-7 py-3.5 font-bold transition hover:bg-blue-600"
           >
             Enquire Now <ArrowRight size={20} />
